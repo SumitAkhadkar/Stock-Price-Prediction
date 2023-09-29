@@ -33,7 +33,7 @@ Before running the code ensure you have the following packages installed:
 - Scikit-Learn
 
 ## Dataset
-To train and test the LSTM model, you will need historical stock price data. I have use your Tata company dataset. The dataset contain following columns:
+To train and test the LSTM model, you will need historical stock price data. I have use Tata company dataset. The dataset contain following columns:
 
 - Date: The Date of stock price.
 - Open: The price at which a stock started trading.
