@@ -1,9 +1,6 @@
-# Stock-Price-Prediction
-# Introduction
+# Stock Prediction Using LSTM
 ![image](https://github.com/SumitAkhadkar/Stock-Price-Prediction/assets/131847108/85857350-e277-4791-917d-004c5b10d660)
 [![MIT License](https://img.shields.io/badge/Stock-LSTM-green.svg)](https://choosealicense.com/licenses/mit/)
-
-# Stock Prediction Using LSTM
 
 Predicting stock prices is a challenging task, but it can be made more accurate using advanced machine learning techniques like Long Short-Term Memory (LSTM) neural networks. This repository contains code and resources for predicting stock prices using LSTM, allowing you to make informed investment decisions.
 
