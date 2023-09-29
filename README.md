@@ -1,29 +1,58 @@
 # Stock-Price-Prediction
 # Introduction
 ![image](https://github.com/SumitAkhadkar/Stock-Price-Prediction/assets/131847108/85857350-e277-4791-917d-004c5b10d660)
+[![MIT License](https://img.shields.io/badge/Stock-LSTM-green.svg)](https://choosealicense.com/licenses/mit/)
 
-* Stock price represents the current market value of a publicly traded company's shares.
-* Investors buy these shares, becoming shareholders with a stake in the company's assets and earnings.
-* Stock prices are determined by supply and demand in the stock market and fluctuate due to various factors.
-* Key factors influencing stock prices include the company's financial performance, economic conditions, investor sentiment, industry trends, and global events.
-* Positive company earnings, growth prospects, and effective management can boost stock prices, while economic downturns, negative news, or adverse industry trends can have the opposite effect.
-* Volatility is common in stock prices, offering both opportunities and risks for investors.
-* Stock prices play a crucial role in investment decisions, with investors using strategies like fundamental analysis and technical analysis to evaluate them.
-* These prices are often grouped in stock market indices, providing a broader view of market performance.
-* Investors may have varying time horizons, seeking long-term growth or engaging in short-term trading.
-* In summary, stock prices are essential indicators of a company's value and market dynamics, reflecting a complex interplay of financial, economic, and psychological factors in the world of finance and investment.
-* Understanding these prices is vital for effective investment decision-making.
-* I will employ the LSTM Machine algorithm in this task to facilitate stock price prediction, making it more accessible for investors to make informed decisions.
+# Stock Prediction Using LSTM
 
-## Data Description
-* I have considered the dataset of Tata from 09/2018 to 09/2023.
-* This dataset contains information about 1235 records having 7 features such as Date, Open, High, Low, Close, Adj Close and Volume.
+Predicting stock prices is a challenging task, but it can be made more accurate using advanced machine learning techniques like Long Short-Term Memory (LSTM) neural networks. This repository contains code and resources for predicting stock prices using LSTM, allowing you to make informed investment decisions.
 
-**Attribute Information of the Dataset:**
 
-* Date: The Date of stock price.
-* Open: The price at which a stock started trading.
-* Low: Lowest price of stock on that period.
-* Close: The price at which a stock close trading.
-* Adj Close: Adjusted close price of a stock.
-* Volume: Total amount of trading activity.
+## Table of Contents
+
+- [Introduction](#Introduction)
+- [Packages](#Packages)
+- [Dataset](#Dataset)
+- [Data Source](#Data-Source)
+- [Conclusion](#Conclusion)
+- [Contribution](#Contribution)
+  
+
+
+## Introduction
+Stock markets are known for their volatility, and predicting the future price of a stock is a complex task. However, LSTM, a type of recurrent neural network (RNN), has shown promising results in time series forecasting, making it a suitable choice for stock price prediction.
+
+This project demonstrates how to build and train an LSTM model to predict stock prices based on historical data. By using this repository, you can gain insights into the world of stock prediction and leverage the power of machine learning for your investment decisions.
+
+## Packages
+Before running the code ensure you have the following packages installed:
+
+- Python 3.x
+- TensorFlow
+- Pandas
+- Numpy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+
+## Dataset
+To train and test the LSTM model, you will need historical stock price data. I have use your Tata company dataset. The dataset contain following columns:
+
+- Date: The Date of stock price.
+- Open: The price at which a stock started trading.
+- Low: Lowest price of stock on that period.
+- Close: The price at which a stock close trading.
+- Adj Close: Adjusted close price of a stock.
+- Volume: Total amount of trading activity.
+
+## Data Source
+
+- [Yahoo Finance Stock Price Data ](https://finance.yahoo.com/quote/TATACONSUM.NS/history?p=TATACONSUM.NS)
+
+## Conclusion
+
+- As evident from the chart above, the model closely approximates the actual stock price trends. Consequently, it can be inferred that this LSTM model is likely to yield high accuracy for this dataset.
+- However, the model's accuracy could be improved further by expanding the training dataset and augmenting the number of LSTM layers.
+
+## Contribution
+Contributions to this project are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or create a pull request.
